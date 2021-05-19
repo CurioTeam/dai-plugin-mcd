@@ -41,6 +41,8 @@ export const tokenBalance = {
             return currencyToken(v, -6);
           } else if (symbol === 'WBTC') {
             return currencyToken(v, -8);
+          } else if (symbol === 'MANA' || symbol === 'CT1' || symbol === 'CT2') {
+            return currencyToken(v, 0);
           } else {
             return currencyToken(v, 'wei');
           }

@@ -159,15 +159,15 @@ var defaultCdpTypes = [{
 }, {
   currency: MANA,
   ilk: 'MANA-A',
-  decimals: 18
+  decimals: 0
 }, {
   currency: CT1,
   ilk: 'CT1-A',
-  decimals: 18
+  decimals: 0
 }, {
   currency: CT2,
   ilk: 'CT2-A',
-  decimals: 18
+  decimals: 0
 }];
 exports.defaultCdpTypes = defaultCdpTypes;
 var SAI = (0, _currency.createCurrency)('SAI');

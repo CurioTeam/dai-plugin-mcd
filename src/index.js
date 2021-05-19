@@ -84,9 +84,9 @@ export const defaultCdpTypes = [
   { currency: TUSD, ilk: 'TUSD-A', decimals: 18 },
   { currency: KNC, ilk: 'KNC-A', decimals: 18 },
   { currency: ZRX, ilk: 'ZRX-A', decimals: 18 },
-  { currency: MANA, ilk: 'MANA-A', decimals: 18 },
-  { currency: CT1, ilk: 'CT1-A', decimals: 18 },
-  { currency: CT2, ilk: 'CT2-A', decimals: 18 }
+  { currency: MANA, ilk: 'MANA-A', decimals: 0 },
+  { currency: CT1, ilk: 'CT1-A', decimals: 0 },
+  { currency: CT2, ilk: 'CT2-A', decimals: 0 }
 ];
 
 export const SAI = createCurrency('SAI');
