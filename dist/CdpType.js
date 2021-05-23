@@ -41,7 +41,7 @@ var CdpType = /*#__PURE__*/function () {
     this._systemData = cdpTypeService.get(_constants.ServiceRoles.SYSTEM_DATA);
     this._web3Service = this._systemData.get('smartContract').get('web3');
     this.currency = currency;
-    this.decimals = decimals || 18;
+    this.decimals = (typeof decimals !== 'undefined') ? decimals : 18;
     this.ilk = ilk;
     this._ilkBytes = (0, _utils.stringToBytes)(this.ilk);
     this.cache = {};
