@@ -11,6 +11,8 @@ module.exports = {
   GNT: require('./abis/GNT.json'),
   SAI: require('./abis/DSToken.json'),
   CDP_MANAGER: require('./abis/DssCdpManager.json'),
+  DSR_MANAGER: require('./abis/DsrManager.json'),
+  ILK_REGISTRY: require('./abis/IlkRegistry.json'),
   ETH: require('./abis/WETH9_.json'),
   GET_CDPS: require('./abis/GetCdps.json'),
   MCD_ADM: require('./abis/DSRoles.json'),
@@ -46,5 +48,9 @@ module.exports = {
   USDC: require('./abis/USDC.json'),
   WBTC: require('./abis/WBTC.json'),
   TUSD: require('./abis/DSToken.json'),
-  MANA: require('./abis/DSToken.json')
+  MANA: require('./abis/DSToken.json'),
+  PROXY_FACTORY: require('./abis/DSProxyFactory.json'),
+  PROXY_REGISTRY: require('./abis/ProxyRegistry.json'),
+  OSM_MOM: require('./abis/OsmMom.json'),
+  FLIPPER_MOM: require('./abis/FlipperMom.json')
 };
