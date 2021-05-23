@@ -5,7 +5,7 @@ var _interopRequireDefault = require("@babel/runtime/helpers/interopRequireDefau
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
-exports["default"] = exports.McdPlugin = exports.defaultTokens = exports.ALLOWANCE_AMOUNT = exports.SAI = exports.defaultCdpTypes = exports.MANA = exports.TUSD = exports.WBTC = exports.USDC = exports.GNT = exports.DGD = exports.BAT = exports.CT2 = exports.CT1 = exports.CSC = exports.OMG = exports.KNC = exports.ZRX = exports.REP = exports.DSR_DAI = exports.DAI = exports.WETH = exports.USD_ETH = exports.USD = exports.MKR = exports.ETH = exports.ServiceRoles = void 0;
+exports["default"] = exports.McdPlugin = exports.defaultTokens = exports.ALLOWANCE_AMOUNT = exports.SAI = exports.defaultCdpTypes = exports.TUSD = exports.WBTC = exports.USDC = exports.GNT = exports.DGD = exports.BAT = exports.CT1 = exports.CSC = exports.OMG = exports.KNC = exports.ZRX = exports.REP = exports.DSR_DAI = exports.DAI = exports.WETH = exports.USD_ETH = exports.USD = exports.MKR = exports.ETH = exports.ServiceRoles = void 0;
 
 var _defineProperty2 = _interopRequireDefault(require("@babel/runtime/helpers/defineProperty"));
 
@@ -110,8 +110,6 @@ var CSC = (0, _currency.createCurrency)('CSC');
 exports.CSC = CSC;
 var CT1 = (0, _currency.createCurrency)('CT1');
 exports.CT1 = CT1;
-var CT2 = (0, _currency.createCurrency)('CT2');
-exports.CT2 = CT2;
 var BAT = (0, _currency.createCurrency)('BAT');
 exports.BAT = BAT;
 var DGD = (0, _currency.createCurrency)('DGD');
@@ -124,8 +122,6 @@ var WBTC = (0, _currency.createCurrency)('WBTC');
 exports.WBTC = WBTC;
 var TUSD = (0, _currency.createCurrency)('TUSD');
 exports.TUSD = TUSD;
-var MANA = (0, _currency.createCurrency)('MANA');
-exports.MANA = MANA;
 var defaultCdpTypes = [{
   currency: ETH,
   ilk: 'ETH-A'
@@ -157,16 +153,8 @@ var defaultCdpTypes = [{
   ilk: 'ZRX-A',
   decimals: 18
 }, {
-  currency: MANA,
-  ilk: 'MANA-A',
-  decimals: 0
-}, {
   currency: CT1,
   ilk: 'CT1-A',
-  decimals: 0
-}, {
-  currency: CT2,
-  ilk: 'CT2-A',
   decimals: 0
 }];
 exports.defaultCdpTypes = defaultCdpTypes;
